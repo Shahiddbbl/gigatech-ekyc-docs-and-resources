@@ -3,7 +3,7 @@
 Please find all the updated resources here in this repository.
 
 ## Support
-Please open an issue first to discuss what you would like to change.
+Please open an issue first to discuss.
 
 ## License
 Copyright (c) GIGA TECH Limited
