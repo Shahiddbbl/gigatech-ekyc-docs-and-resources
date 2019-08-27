@@ -2,6 +2,30 @@
 
 Please find all the updated resources here in this repository.
 
+## Changlog (IMPORTANT)
+#### Version 1.07 (Update: 27th August, 2019)
+
+##### Implemented changes
+###### A. POST Customer Registration : Step 1 - NID Upload
+       URL: /agent/customer-registration/?step=1&crop=1
+
+Response will be changed from "id_front_url" to "id_front_image" & "id_back_url" to "id_back_image".
+"id_front_image" & "id_back_image" will be base64 encoded images. Example:
+
+"id_front_image": "data:image/png;base64,b'/9j/4AAQSkZJRgABAQEAeAB4AAD/4RUyRXhpZgAATU0AKgAAAAgABgEPAAIAAAALAAAAVgEQAAIAAAAJAAAAYgESAAMAAAABAAEAAAEyAAIAAAAUAAAAbIdpAAQAAAABA"
+
+the response will also have "id_front_name" & "id_back_name" which will be needed for step 2.
+
+
+###### B. POST Customer Registration: Step 2 - Photo & Other Information Upload
+       URL: /agent/customer-registration/?step=2
+
+Change "id_front_url" to "id_front_name" & "id_back_url" to "id_back_name".
+The "id_front_name" & "id_back_name" will be from the response of Step 1.
+
+
+
+
 ## Support
 Please open an issue first to discuss.
 
