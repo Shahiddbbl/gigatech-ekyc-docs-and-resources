@@ -2,7 +2,7 @@
 
 Please find all the updated resources here in this repository.
 
-## Changlog (IMPORTANT)
+## CHANGELOG (Important)
 #### Version 1.07 (Update: 27th August, 2019)
 
 ##### Implemented changes
@@ -22,6 +22,14 @@ the response will also have "id_front_name" & "id_back_name" which will be neede
 
 Change "id_front_url" to "id_front_name" & "id_back_url" to "id_back_name".
 The "id_front_name" & "id_back_name" will be from the response of Step 1.
+
+###### C. POST Customer Registration: Step 2 - Photo & Other Information Upload
+                 URL: /agent/customer-registration/?step=2
+
+In the success response for "status" : "passed" or "failed":
+
+"applicantPhoto_from_card" will now be be an base64 encoded image.
+"applicantPhoto_from_app" will now be be an base64 encoded image.
 
 
 
