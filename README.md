@@ -24,7 +24,7 @@ Change "id_front_url" to "id_front_name" & "id_back_url" to "id_back_name".
 The "id_front_name" & "id_back_name" will be from the response of Step 1.
 
 ###### C. POST Customer Registration: Step 2 - Photo & Other Information Upload
-                 URL: /agent/customer-registration/?step=2
+       URL: /agent/customer-registration/?step=2
 
 In the success response for "status" : "passed" or "failed":
 
