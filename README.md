@@ -31,7 +31,7 @@ New Sample Response will be:
       "pres_address":"বাড়ী ৩, মোহাম্মদপুর, ঢাকা",
       "pres_address_score":85,
       "textual_info_match":true,
-             "applicant_photo_from_card":”data:image/png;base64,/9j/4AAQSkZJRgABAQEAeAB4AAD/4RUyRXhpZgAATU0AKgAAAAgABgEPAAIAAAALAAAAVgEQAAIAAAAJAAAAYgESAAMAAAABAAEAAAEyAAIAAAAUAAAAbIdpAAQA”,
+      "applicant_photo_from_card":”data:image/png;base64,/9j/4AAQSkZJRgABAQEAeAB4AAD/4RUyRXhpZgAATU0AKgAAAAgABgEPAAIAAAALAAAAVgEQAAIAAAAJAAAAYgESAAMAAAABAAEAAAEyAAIAAAAUAAAAbIdpAAQA”,
       "applicant_photo_card_ec_match":true,
       "applicant_photo_from_app":”data:image/png;base64,/9j/4AAQSkZJRgABAQEAeAB4AAD/4RUyRXhpZgAATU0AKgAAAAgABgEPAAIAAAALAAAAVgEQAAIAAAAJAAAAYgESAAMAAAABAAEAAAEyAAIAAAAUAAAAbIdpAAQA”,
       "applicant_photo_app_ec_match":true
