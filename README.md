@@ -16,26 +16,29 @@ New Sample Response will be:
 
 ```
 {
-   "status":"passed",
-   "detail":{
-      "nid_no":123122324243131,
-      "dob":"12/12/1980",
-      "applicant_name_eng":"ABDUR RAHIM",
-      "applicant_name_eng_score":85,
-      "applicant_name_ben":"আব্দুর রহিম",
-      "applicant_name_ben_score":85,
-      "father_name":"কুদ্দুসুর রহিম",
-      "father_name_score":85,
-      "mother_name":"রহিমা খাতুন",
-      "mother_name_score":85,
-      "pres_address":"বাড়ী ৩, মোহাম্মদপুর, ঢাকা",
-      "pres_address_score":85,
-      "textual_info_match":true,
-      "applicant_photo_from_card":”data:image/png;base64,/9j/4AAQSkZJRgABAQEAeAB4AAD/4RUyRXhpZgAATU0AKgAAAAgABgEPAAIAAAALAAAAVgEQAAIAAAAJAAAAYgESAAMAAAABAAEAAAEyAAIAAAAUAAAAbIdpAAQA”,
-      "applicant_photo_card_ec_match":true,
-      "applicant_photo_from_app":”data:image/png;base64,/9j/4AAQSkZJRgABAQEAeAB4AAD/4RUyRXhpZgAATU0AKgAAAAgABgEPAAIAAAALAAAAVgEQAAIAAAAJAAAAYgESAAMAAAABAAEAAAEyAAIAAAAUAAAAbIdpAAQA”,
-      "applicant_photo_app_ec_match":true
-   }
+    "status": "success",
+    "data": {
+       "status":"passed",
+       "detail":{
+          "nid_no":123122324243131,
+          "dob":"1980/12/12/",
+          "applicant_name_eng":"ABDUR RAHIM",
+          "applicant_name_eng_score":85,
+          "applicant_name_ben":"আব্দুর রহিম",
+          "applicant_name_ben_score":85,
+          "father_name":"কুদ্দুসুর রহিম",
+          "father_name_score":85,
+          "mother_name":"রহিমা খাতুন",
+          "mother_name_score":85,
+          "pres_address":"বাড়ী ৩, মোহাম্মদপুর, ঢাকা",
+          "pres_address_score":85,
+          "textual_info_match":true,
+          "applicant_photo_from_card":”data:image/png;base64,/9j/4AAQSkZJRgABAQEAeAB4AAD/4RUyRXhpZgAATU0AKgAAAAgABgEPAAIAAAALAAAAVgEQAAIAAAAJAAAAYgESAAMAAAABAAEAAAEyAAIAAAAUAAAAbIdpAAQA”,
+          "applicant_photo_card_ec_match":true,
+          "applicant_photo_from_app":”data:image/png;base64,/9j/4AAQSkZJRgABAQEAeAB4AAD/4RUyRXhpZgAATU0AKgAAAAgABgEPAAIAAAALAAAAVgEQAAIAAAAJAAAAYgESAAMAAAABAAEAAAEyAAIAAAAUAAAAbIdpAAQA”,
+          "applicant_photo_app_ec_match":true
+        }
+    }
 }
 
 ``` 
