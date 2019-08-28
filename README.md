@@ -104,12 +104,13 @@ In the success response for "status" : "passed" or "failed":
 "applicantPhoto_from_app" will now be be an base64 encoded image.
 
 ## FAQs
-####Aspect Ration of NID?
+####Aspect Ratio of NID?
 --> 16:10
 ####NID Photo Resolution requirement?
 ---> Minimum 1000px in width (If cropped along the NID borders).
 ####Should we do anything with the DOB format?
 --> No. Recieve the response in Step 1, and send it back in Step 2.
+The DOB format will always be Y/m/d (example: 1980/12/31)
 ####Why do we need the send some data from Step 1 to Step 2 again?
 --> Step 1 is stateless so, we don't maintain a DB till Step 2. We avoided unnecessary overhead.
 ####How do you send the image to us?
